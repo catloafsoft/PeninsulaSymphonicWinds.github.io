@@ -1,6 +1,5 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Peninsula Symphonic Winds
 baseurl: "/psw" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
@@ -28,6 +27,10 @@ concert:
     location: Rolling Hills Covenant Church Community Center
     address: 735 Silver Spur Road, Rolling Hills Estates
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
+    # if concert is at PV High School
+    #location: Palos Verdes High School Courtyard
+    # address: 600 Cloyden Road, Palos Verdes Estates
+    # mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
 
 # Testimonials
 testimonials:
@@ -40,15 +43,15 @@ map:
     address_details: svg/min/logo.svg
 
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
-feed: yes
+facebook: https://www.facebook.com/peninsulawinds/
+#twitter: http://twitter.com
+#instagram: http://instagram.com
+#youtube: http://youtube.com
+#skype: skype:obaez_design?userinfo
+#feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2015 Peninsula Symphonic Winds - All rights reserved
 
 # Build settings
 markdown: kramdown

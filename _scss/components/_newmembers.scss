@@ -1,0 +1,8 @@
+/* NEW MEMBERS
+-------------------------------------------------*/
+.newmembers {
+    @extend %space;
+    .media {
+        margin-bottom: $space;
+    }
+}
