@@ -31,17 +31,7 @@ concert:
     #location: Palos Verdes High School Courtyard
     # address: 600 Cloyden Road, Palos Verdes Estates
     # mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
-
-# Testimonials
-testimonials:
-    testimonials_img: parallax.jpg
-
-# Map
-map:
-    zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
-    address_details: svg/min/logo.svg
-
+    
 # Social settings
 facebook: https://www.facebook.com/peninsulawinds/
 #twitter: http://twitter.com
