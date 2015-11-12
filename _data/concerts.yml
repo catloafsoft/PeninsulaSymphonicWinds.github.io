@@ -1,49 +1,43 @@
-[
-	{
-		"Season" : "2015-2016",
-		"concerts" : [
-			{
-				"date" : "December 6, 2015",
-				"time" : "3pm",
-				"title" : "Winter Holidays",
-				"location" : "RHCC Community Center"
-			},
-			{
-				"date" : "October 18, 2015",
-				"time" : "3pm",
-				"title" : "Fall Into Halloween",
-				"location" : "RHCC Community Center",
-				"pdf" : "concerts/2015_16/2015_10-18.pdf"
-			}
-		]
-	},
-	{
-		"Season" : "2014-2015",
-		"concerts" : [
-			{
-				"date" : "July 12, 2015",
-				"title" : "Picnic and Pops",
-				"location" : "Palos Verdes High School, RHE (Courtyard)",
-				"pdf" : "concerts/2014_15/2015_07-12.pdf"
-			},
-			{
-				"date" : "May 17, 2015",
-				"title" : "And All That Jazz",
-				"location" : "RHCC Community Center",
-				"pdf" : "concerts/2014_15/2015_05-17.pdf"
-			},
-			{
-				"date" : "December 7, 2014",
-				"title" : "Home for the Holidays",
-				"location" : "RHCC Community Center",
-				"pdf" : "concerts/2014_15/2014_12-07.pdf"
-			},
-			{
-				"date" : "October 19, 2014",
-				"title" : "Bewitching Hour",
-				"location" : "RHCC Community Center",
-				"pdf" : "concerts/2014_15/2014_10-19.pdf"
-			}
-		]
-	}
-]
+- Season: "2015-2016"
+  current: true
+  concerts:
+  - date: "December 6, 2015"
+    time: "3pm"
+    title: "Winter Holidays"
+    location: "RHCC Community Center"
+    mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
+    address: 735 Silver Spur Road, Rolling Hills Estates
+    current: true
+  - date: "October 18, 2015"
+    time: "3pm"
+    title: "Fall Into Halloween"
+    location: "RHCC Community Center"
+    pdf: "concerts/2015_16/2015_10-18.pdf"
+    mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
+    address: 735 Silver Spur Road, Rolling Hills Estates
+- Season: "2014-2015"
+  concerts:
+  - date: "July 12, 2015"
+    title: "Picnic and Pops"
+    location: "Palos Verdes High School, RHE (Courtyard)"
+    pdf: "concerts/2014_15/2015_07-12.pdf"
+    mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
+    address: 600 Cloyden Road, Palos Verdes Estates
+  - date: "May 17, 2015"
+    title: "And All That Jazz"
+    location: "RHCC Community Center"
+    pdf: "concerts/2014_15/2015_05-17.pdf"
+    mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
+    address: 735 Silver Spur Road, Rolling Hills Estates
+  - date: "December 7, 2014"
+    title: "Home for the Holidays"
+    location: "RHCC Community Center"
+    pdf: "concerts/2014_15/2014_12-07.pdf"
+    mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
+    address: 735 Silver Spur Road, Rolling Hills Estates
+  - date: "October 19, 2014"
+    title: "Bewitching Hour"
+    location: "RHCC Community Center"
+    pdf: "concerts/2014_15/2014_10-19.pdf"
+    mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
+    address: 735 Silver Spur Road, Rolling Hills Estates

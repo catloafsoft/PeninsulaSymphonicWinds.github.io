@@ -19,29 +19,7 @@ rehearsal:
     location: Los Angeles Harbor College<br>Music Building Room 107
     address: 1111 Figueroa Place, Wilmington CA 90744
     mapLink: https://www.google.com/maps/place/Los+Angeles+Harbor+College/data=!4m2!3m1!1s0x0:0x5de6b9ef8f42b374?sa=X&ved=0CCUQrwswAGoVChMI9qrNu-T_yAIVF_NjCh0BGQGW
-
-# Concert Info
-concert:
-    day: Sunday, December 6 2015
-    time: 3pm
-    location: Rolling Hills Covenant Church Community Center
-    address: 735 Silver Spur Road, Rolling Hills Estates
-    mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    # if concert is at PV High School
-    #location: Palos Verdes High School Courtyard
-    # address: 600 Cloyden Road, Palos Verdes Estates
-    # mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
-
-# Testimonials
-testimonials:
-    testimonials_img: parallax.jpg
-
-# Map
-map:
-    zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
-    address_details: svg/min/logo.svg
-
+    
 # Social settings
 facebook: https://www.facebook.com/peninsulawinds/
 #twitter: http://twitter.com

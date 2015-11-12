@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <!-- Start Hero -->
 <div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover; height: 20rem;">
 </div>
@@ -10,15 +9,22 @@ layout: default
 <!-- Start 3 columns -->
 <div class="three-shade-col">
 	<div class="col-sm-4">
-		<h3>Contact Us</h3>
-		<ul>
-			{% for contact in site.data.contacts %}
-				<li>
-					<strong>{{ contact.name }}</strong>, {{ contact.title }} <br> <em><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></em>
-				</li>
-			{% endfor %}
-		</ul>
-		
+		<h3>Next Concert</h3>
+		{% for season in site.data.concerts %}
+			{% if season.current %}
+				{% for concert in season.concerts %}
+					{% if concert.current %}
+						<h4>{{ concert.date }}, {{ concert.time }}</h4>
+						<h5>{{ concert.location }}</h5>
+						<p><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+							<a href="{{ concert.mapLink }}">{{ concert.address }}</a>
+						</p>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+
+		<h4><a href="#concerts" data-toggle="modal" data-target="#concerts">See a list of upcoming and past concerts</a></h4>
 	</div>
 	<div class="col-sm-4">
 		<h3>Rehearsals</h3>
@@ -33,17 +39,15 @@ layout: default
 		</p>
 	</div>
 	<div class="col-sm-4">
-		<h3>Next Concert</h3>
-		<h4>
-			{{ site.concert.day }}, {{ site.concert.time}}
-		</h4>
-		<h5>
-			{{ site.concert.location }}
-		</h5>
-		<p><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-			<a href="{{ site.concert.mapLink }}">{{ site.concert.address }}</a>
-		</p>
-		<h4><a href="#concerts" data-toggle="modal" data-target="#concerts">See a list of upcoming and past concerts</a></h4>
+		<h3>Contact Us</h3>
+		<ul>
+			{% for contact in site.data.contacts %}
+				<li>
+					<strong>{{ contact.name }}</strong>, {{ contact.title }} <br> <em><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></em>
+				</li>
+			{% endfor %}
+		</ul>
+		
 	</div>
 </div>
 <!-- End 3 columns -->
