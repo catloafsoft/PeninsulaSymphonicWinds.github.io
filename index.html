@@ -10,15 +10,20 @@ layout: default
 <div class="three-shade-col">
 	<div class="col-sm-4">
 		<h3>Next Concert</h3>
-		<h4>
-			{{ site.concert.day }}, {{ site.concert.time}}
-		</h4>
-		<h5>
-			{{ site.concert.location }}
-		</h5>
-		<p><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-			<a href="{{ site.concert.mapLink }}">{{ site.concert.address }}</a>
-		</p>
+		{% for season in site.data.concerts %}
+			{% if season.current %}
+				{% for concert in season.concerts %}
+					{% if concert.current %}
+						<h4>{{ concert.date }}, {{ concert.time }}</h4>
+						<h5>{{ concert.location }}</h5>
+						<p><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+							<a href="{{ concert.mapLink }}">{{ concert.address }}</a>
+						</p>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+
 		<h4><a href="#concerts" data-toggle="modal" data-target="#concerts">See a list of upcoming and past concerts</a></h4>
 	</div>
 	<div class="col-sm-4">
