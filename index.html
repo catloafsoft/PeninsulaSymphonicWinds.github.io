@@ -169,7 +169,7 @@ layout: default
 					<tbody>
 						{% for concert in season.concerts %}
 							<tr>
-								<td>{{ concert.date }}, {{ concert.time }}</td>
+								<td>{{ concert.date }}{% if concert.time %}, {{ concert.time }}{% endif %}</td>
 								<td>
 									{% if concert.pdf %}
 									<a href="{{ concert.pdf }}" target="_blank">
