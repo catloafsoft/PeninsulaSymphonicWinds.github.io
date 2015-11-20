@@ -12,6 +12,9 @@
     .expandable-box:hover & {
         transform: translate(0px, -45px);
     }
+    img {
+        width: 100%;
+    }
 }
 
 .expandable-box-bottom {

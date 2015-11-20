@@ -1,51 +1,35 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Peninsula Symphonic Winds
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
 
 # Hero
 hero: 
-    hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_img: psw_016.jpg
+    hero_title: Peninsula Symphonic Winds
 
 # Contact form
 api_token: # Enter API token here
 
-# Contact info
-contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
-
-# Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
-
-# Testimonials
-testimonials:
-    testimonials_img: parallax.jpg
-
-# Map
-map:
-    zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
-    address_details: svg/min/logo.svg
-
+# rehearsal time/day
+rehearsal:
+    day: Wednesdays
+    time: 7:45pm-10pm
+    location: Los Angeles Harbor College<br>Music Building Room 107
+    address: 1111 Figueroa Place, Wilmington CA 90744
+    mapLink: https://www.google.com/maps/place/Los+Angeles+Harbor+College/data=!4m2!3m1!1s0x0:0x5de6b9ef8f42b374?sa=X&ved=0CCUQrwswAGoVChMI9qrNu-T_yAIVF_NjCh0BGQGW
+    
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
-feed: yes
+facebook: https://www.facebook.com/peninsulawinds/
+#twitter: http://twitter.com
+#instagram: http://instagram.com
+#youtube: http://youtube.com
+#skype: skype:obaez_design?userinfo
+#feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2015 Peninsula Symphonic Winds - All rights reserved
 
 # Build settings
 markdown: kramdown
