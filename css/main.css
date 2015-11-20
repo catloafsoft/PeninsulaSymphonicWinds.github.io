@@ -6262,7 +6262,7 @@ Example showing how to change the color/size of the icons:
   .social a {
     color: #fff; }
   .social .icon {
-    height: 2.5em; }
+    height: 1em; }
 
 /* IE CLASSES
 -------------------------------------------------*/
