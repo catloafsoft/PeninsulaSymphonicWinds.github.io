@@ -1,6 +1,6 @@
 # Site settings
 title: Peninsula Symphonic Winds
-baseurl: "/psw" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
 
