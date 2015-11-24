@@ -16,7 +16,10 @@
     .expandable-box {
         border-right: solid 1px lighten($colorPrimary, 5%);
     }
-
+    a {
+        color: $white;
+        text-decoration: underline;
+    }
     .expandable-box-top {
         padding: $space;
         background: $colorPrimary;

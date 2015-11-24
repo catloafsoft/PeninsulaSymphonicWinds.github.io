@@ -9,4 +9,6 @@ If you’d like to renew your support, or if you’d like to add your name as a 
 
 Contributions to the Peninsula Symphonic Winds are fully deductible for both federal and state income tax purposes.  You will receive a letter acknowledging your donation.
 
+If you have a business and would like to be known to the ~200 attendees at our concerts, please consider placing an ad in our concert program.  [Please see our Advertising Agreement for pricing and options.](psw_ad.pdf){:target='_blank'}
+
 Thanks for supporting the Peninsula Symphonic Winds!
