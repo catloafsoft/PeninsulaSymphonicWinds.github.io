@@ -2,8 +2,6 @@ Peninsula Symphonic Winds (PSW) was established in 1996 as an independent, nonpr
 
 The mission of the Peninsula Symphonic Winds is to provide an opportunity for instrumental musicians to maintain and enhance their musical skills, to prepare and perform the traditional and modern concert band repertoire, to offer stimulating concerts to the public, and to provide a venue for composers of new works for concert band.
 
-In 2015, the PSW will provide four Sunday afternoon concerts. Three concerts are at the Rolling Hills Covenant Church Community Center (735 Silver Spur, RHE), and the July “Picnic and Pops” concert is outdoors at Palos Verdes High School (600 Cloyden Road, PVE).
-
 We gratefully acknowledge the support of Harbor College, which continues to provide the use of its facilities for rehearsals.
 
 We invite you to browse our website to learn more about us, including opportunities for you to support the Peninsula Symphonic Winds.  If you are a wind or percussion instrumentalist, come to a practice at Harbor College some Wednesday evening and see what you think. 
