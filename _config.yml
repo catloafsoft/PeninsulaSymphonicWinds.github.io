@@ -3,7 +3,6 @@ title: Peninsula Symphonic Winds
 description: "A community concert band based in Palos Verdes, California"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pswinds.org" # the name of your domain
-logo_url: svg/min/logo.svg
 logo: /svg/min/logo.svg
 
 # Hero
