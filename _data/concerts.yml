@@ -6,6 +6,8 @@
     location: "Rolling Hills Covenant Church Community Center"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
     address: 735 Silver Spur Road, Rolling Hills Estates
+    pdf: "concerts/2016_17/2016_12-04.pdf"
+    current: true
   - date: "October 16, 2016"
     time: "3pm"
     location: "Rolling Hills Covenant Church Community Center"
@@ -13,7 +15,6 @@
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
     address: 735 Silver Spur Road, Rolling Hills Estates
     pdf: "concerts/2016_17/2016_10-16.pdf"
-    current: true
   - date: "July 10, 2016"
     time: "5pm"
     location: "Palos Verdes High School, PVE (Courtyard)"
