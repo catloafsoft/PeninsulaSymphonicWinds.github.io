@@ -1,4 +1,4 @@
-- Season: "2015-2016"
+- Season: "2016-2017"
   current: true
   concerts:
   - date: "December 4, 2016"
@@ -9,6 +9,8 @@
     address: 735 Silver Spur Road, Rolling Hills Estates
     pdf: "concerts/2016_17/2016_12-04.pdf"
     current: true
+- Season: "2015-2016"
+  concerts:
   - date: "October 16, 2016"
     time: "3pm"
     location: "Rolling Hills Covenant Church Community Center"
