@@ -12,7 +12,11 @@
     location: "TBA"
   - date: "May 21, 2017"
     time: "3pm"
+    title : "Spring Has Sprung"
     location: "TBA"
+    mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
+    address: 735 Silver Spur Road, Rolling Hills Estates
+    pdf: "concerts/2016_17/2017_5-21.pdf"
     current: true
   - date: "December 4, 2016"
     time: "3pm"
