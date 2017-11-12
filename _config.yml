@@ -16,7 +16,7 @@ api_token: # Enter API token here
 # rehearsal time/day
 rehearsal:
     day: Wednesdays
-    time: 7:45pm-10pm
+    time: 7:30pm-9:45pm
     location: Los Angeles Harbor College<br>Music Building Room 107
     address: 1111 Figueroa Place, Wilmington CA 90744
     mapLink: https://www.google.com/maps/place/Los+Angeles+Harbor+College/data=!4m2!3m1!1s0x0:0x5de6b9ef8f42b374?sa=X&ved=0CCUQrwswAGoVChMI9qrNu-T_yAIVF_NjCh0BGQGW
