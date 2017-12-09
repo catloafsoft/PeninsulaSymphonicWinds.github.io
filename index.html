@@ -26,6 +26,10 @@ image: /img/gallery/IMG_2071.jpg
 						</h4>
 						<h5>{{ concert.date }}, {{ concert.time }}</h5>
 						<h5>{{ concert.location }}</h5>
+						{% if concert.youtube %}
+						<p><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
+						<a href="https://www.youtube.com/watch?v={{ concert.youtube }}" target="_blank">Watch Now!</a></p>
+						{% endif %}
 						<p><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
 							<a href="{{ concert.mapLink }}">{{ concert.address }}</a>
 						</p>
@@ -182,6 +186,9 @@ image: /img/gallery/IMG_2071.jpg
 									</a>
 									{% else %}
 										{{ concert.title }}
+									{% endif %}
+									{% if concert.youtube %}
+									<a href="https://www.youtube.com/watch?v={{ concert.youtube }}"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a>
 									{% endif %}
 								</td>
 								<td>{{ concert.location }}</td>
