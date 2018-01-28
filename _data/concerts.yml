@@ -1,14 +1,21 @@
-- Season: "2016-2017"
+  Season: "2017-2018"
   current: true
   concerts:
+  - date: "March 17, 2018"
+    time: "3pm"
+    location: "Salvation Army"
+    mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
+    address: 4223 Emerald St, Torrance CA 90503
+    title: "TBA"
+    current: true
+    pdf: "concerts/2017_18/2018_3-17.pdf"
   - date: "December 3, 2017"
     time: "3pm"
     location: "LOTH RHCC Community Center"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
     address: 735 Silver Spur Road, Rolling Hills Estates
     title: "Winter Holiday Concert"
-    current: true
-    pdf: "concerts/2016_17/2017_12-03.pdf"
+    pdf: "concerts/2017_18/2017_12-03.pdf"
     youtube: 6PmTT5KZ9S0
   - date: "October 22, 2017"
     time: "3pm"
@@ -16,8 +23,10 @@
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
     address: 735 Silver Spur Road, Rolling Hills Estates
     title: "Fall Concert"
-    pdf: "concerts/2016_17/2017_10-22.pdf"
+    pdf: "concerts/2017_18/2017_10-22.pdf"
     youtube: 7Pf09W5sLQ
+- Season: "2016-2017"
+  concerts:
   - date: "July 9, 2017"
     time: "5pm"
     location: "Palos Verdes High School, PVE (Courtyard)"
