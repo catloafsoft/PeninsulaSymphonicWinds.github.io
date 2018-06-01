@@ -17,9 +17,9 @@
     mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
     address: 600 Cloyden Road, Palos Verdes Estates
     title: "Picnic and Pops - Admission Free"
+    current: true
   - date: "May 19, 2018"
     time: "3pm"
-    current: true
     location: "Salvation Army Torrance Chapel"
     mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
     address: 4223 Emerald St, Torrance
