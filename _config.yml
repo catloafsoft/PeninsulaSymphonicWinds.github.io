@@ -2,7 +2,7 @@
 title: Peninsula Symphonic Winds
 description: "A community concert band based in Palos Verdes, California"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://pswinds.org" # the name of your domain
+url: "https://pswinds.org" # the name of your domain
 logo: /svg/min/logo.svg
 
 # Hero
@@ -24,10 +24,10 @@ rehearsal:
 # Social settings
 social:
   links:
-    - http://www.facebook.com/peninsulawinds/
-    - http://twitter.com/peninsula_winds
+    - https://www.facebook.com/peninsulawinds/
+    - https://twitter.com/peninsula_winds
 facebook:
-  publisher: http://www.facebook.com/peninsulawinds/
+  publisher: https://www.facebook.com/peninsulawinds/
 twitter: 
   username: peninsula_winds
 #instagram: http://instagram.com
