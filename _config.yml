@@ -38,6 +38,9 @@ youtube: https://www.youtube.com/channel/UCLs0HjcVt8pEJqNknpQD14A
 # Footer
 copyright: Peninsula Symphonic Winds - All rights reserved
 
+sass:
+  sass_dir: _scss
+
 # Build settings
 markdown: kramdown
 plugins:
