@@ -1,6 +1,6 @@
 [See our latest press release!](press_release_5_2018.pdf){:target='_blank'}
 
-Peninsula Symphonic Winds (PSW) was established in 1996 as an independent, nonprofit educational association. The ensemble is composed of community members who are semi-professional or seasoned amateur musicians. Led by our Music Director Dr. Berkeley Price and Associate Director Mr. John Elg, we perform a wide variety of music from the concert band and symphonic repertoire.
+Peninsula Symphonic Winds (PSW) was established in 1996 as an independent, nonprofit educational association. The ensemble is composed of community members who are semi-professional or seasoned amateur musicians. Led by our Music Director Dr. Berkeley Price and Associate Director Mr. Justin Raines, we perform a wide variety of music from the concert band and symphonic repertoire.
 
 The Salvation Army’s Torrance Chapel, located at [4223 Emerald Street in Torrance](https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673){:target='_blank'}, is our concert home.  The facility is acoustically engineered for musical performances and offers comfortable seating for audience members.
 
