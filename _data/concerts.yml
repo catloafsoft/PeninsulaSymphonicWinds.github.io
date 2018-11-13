@@ -1,12 +1,26 @@
-- Season: "2017-2018"
+- Season: "2018-2019"
   current: true
-  concerts:
+  concerts: 
+  - date: "July 8, 2018"
+    time: "5pm"
+    title: "Picnic and Pops - Admission Free"
+  - date: "May 18, 2019"
+    time: "3pm"
+    location: "Salvation Army Torrance Chapel"
+    mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
+    address: 4223 Emerald St, Torrance
+  - date: "March 16, 2019"
+    time: "3pm"
+    location: "Salvation Army Torrance Chapel"
+    mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
+    address: 4223 Emerald St, Torrance
   - date: "December 1, 2018"
     time: "3pm"
     location: "Salvation Army Torrance Chapel"
     mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
     address: 4223 Emerald St, Torrance
     current: true
+    pdf: "concerts/2018_19/2018_12-01.pdf"
   - date: "October 13, 2018"
     time: "3pm"
     location: "Salvation Army Torrance Chapel"
@@ -16,6 +30,8 @@
     pdf: "concerts/2018_19/2018_10-13.pdf"
     title: "Literary Classics"
     video: true
+- Season: "2017-2018"
+  concerts:
   - date: "July 8, 2018"
     time: "5pm"
     location: "Palos Verdes High School, PVE (Courtyard)"
