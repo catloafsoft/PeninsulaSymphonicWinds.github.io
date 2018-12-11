@@ -3,7 +3,16 @@ layout: none
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:https://pswinds.org/
+PRODID:{{ site.url }}
+URL:{{ site.url }}/concerts.ics
+NAME: Peninsula Symphonic Winds Concerts
+X-WR-CALNAME: Peninsula Symphonic Winds Concerts
+DESCRIPTION: Scheduled concerts for the Peninsula Symphonic Winds in L.A. South Bay
+X-WR-DESC: Scheduled concerts for the Peninsula Symphonic Winds in L.A. South Bay
+TIMEZONE-ID:America/Los_Angeles
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:PT24H
+X-PUBLISHED-TTL:PT24H
 METHOD:PUBLISH
 BEGIN:VTIMEZONE
 TZID:America/Los_Angeles
