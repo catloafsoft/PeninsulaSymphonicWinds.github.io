@@ -35,7 +35,7 @@ END:VTIMEZONE
 {% for season in site.data.concerts %}{% for concert in season.concerts %}BEGIN:VEVENT
 UID:{{ concert.date | date: "%Y%m%d" }}@pswinds.org
 ORGANIZER;CN="Organizer Name":MAILTO:info@pswinds.org
-LOCATION:{{ concert.address }}
+LOCATION:{{ concert.address | replace: ",", "\," }}
 SUMMARY:Concert: {{ concert.title }}
 CLASS:PUBLIC
 DTSTART;TZID=America/Los_Angeles:{{ concert.date | date: "%Y%m%d" }}{% if concert.time %}T{{ concert.time | date: "%H%M" }}00{% endif %}
