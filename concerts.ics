@@ -1,0 +1,37 @@
+---
+layout: none
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:https://pswinds.org/
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+X-LIC-LOCATION:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+{% for season in site.data.concerts %}{% for concert in season.concerts %}BEGIN:VEVENT
+UID:{{ concert.date | date: "%Y%m%d" }}@pswinds.org
+ORGANIZER;CN="Organizer Name":MAILTO:info@pswinds.org
+LOCATION:{{ concert.address }}
+SUMMARY:Concert: {{ concert.title }}
+CLASS:PUBLIC
+DTSTART;TZID=America/Los_Angeles:{{ concert.date | date: "%Y%m%d" }}{% if concert.time %}T{{ concert.time | date: "%H%M" }}00{% endif %}
+DTEND;TZID=America/Los_Angeles:{{ concert.date | date: "%Y%m%d" }}{% if concert.time %}T{{ concert.time | date: "%H" | plus: 2 }}0000{% endif %}
+DTSTAMP:{{ concert.date | date: "%Y%m%d" }}T170000Z
+END:VEVENT
+{% endfor %}{% endfor %}END:VCALENDAR
+
