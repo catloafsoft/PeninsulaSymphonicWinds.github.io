@@ -8,17 +8,17 @@
     time: "3pm"
     location: "Salvation Army Torrance Chapel"
     mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
-    address: 4223 Emerald St, Torrance
+    address: 4223 Emerald St, Torrance, CA
   - date: "March 16, 2019"
     time: "3pm"
     location: "Salvation Army Torrance Chapel"
     mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
-    address: 4223 Emerald St, Torrance
+    address: 4223 Emerald St, Torrance, CA
   - date: "December 1, 2018"
     time: "3pm"
     location: "Salvation Army Torrance Chapel"
     mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
-    address: 4223 Emerald St, Torrance
+    address: 4223 Emerald St, Torrance, CA
     title: "Music that Inspires and Excites"
     current: true
     pdf: "concerts/2018_19/2018_12-01.pdf"
@@ -27,7 +27,7 @@
     location: "Salvation Army Torrance Chapel"
     youtube: wDs4L92P8_0
     mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
-    address: 4223 Emerald St, Torrance
+    address: 4223 Emerald St, Torrance, CA
     pdf: "concerts/2018_19/2018_10-13.pdf"
     title: "Literary Classics"
     video: true
@@ -38,7 +38,7 @@
     location: "Palos Verdes High School, PVE (Courtyard)"
     youtube: 3kx_lKEl808
     mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
-    address: 600 Cloyden Road, Palos Verdes Estates
+    address: 600 Cloyden Road, Palos Verdes Estates, CA
     title: "Picnic and Pops - Admission Free"
     pdf: "concerts/2017_18/2018_7-8.pdf"
   - date: "May 19, 2018"
@@ -46,7 +46,7 @@
     location: "Salvation Army Torrance Chapel"
     youtube: KA15eVi4lB4
     mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
-    address: 4223 Emerald St, Torrance
+    address: 4223 Emerald St, Torrance, CA
     pdf: "concerts/2017_18/2018_5-19.pdf"
     title: "A Musical Travelogue"
   - date: "March 17, 2018"
@@ -54,14 +54,14 @@
     location: "Salvation Army Torrance Chapel"
     youtube: eDA673jvS7Q
     mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
-    address: 4223 Emerald St, Torrance
+    address: 4223 Emerald St, Torrance, CA
     title: "New Beginnings"
     pdf: "concerts/2017_18/2018_3-17.pdf"
   - date: "December 3, 2017"
     time: "3pm"
     location: "LOTH RHCC Community Center"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
     title: "Winter Holiday Concert"
     pdf: "concerts/2017_18/2017_12-03.pdf"
     youtube: 6PmTT5KZ9S0
@@ -69,7 +69,7 @@
     time: "3pm"
     location: "LOTH RHCC Community Center"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
     title: "Fall Concert"
     pdf: "concerts/2017_18/2017_10-22.pdf"
     youtube: 7Pf09W5sLQ
@@ -79,7 +79,7 @@
     time: "5pm"
     location: "Palos Verdes High School, PVE (Courtyard)"
     mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
-    address: 600 Cloyden Road, Palos Verdes Estates
+    address: 600 Cloyden Road, Palos Verdes Estates, CA
     title: "Picnic and Pops - Admission Free"
     pdf: "concerts/2016_17/2017_7-09.pdf"
   - date: "May 21, 2017"
@@ -87,14 +87,14 @@
     title : "Spring Has Sprung"
     location: "Rolling Hills Covenant Church Community Center"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
     pdf: "concerts/2016_17/2017_5-21.pdf"
   - date: "December 4, 2016"
     time: "3pm"
     location: "Rolling Hills Covenant Church Community Center"
     title: "Happy Holidays"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
     pdf: "concerts/2016_17/2016_10-16.pdf"
 - Season: "2015-2016"
   concerts:
@@ -103,27 +103,27 @@
     location: "Rolling Hills Covenant Church Community Center"
     title: "Fall Festival"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
     pdf: "concerts/2016_17/2016_10-16.pdf"
   - date: "July 10, 2016"
     time: "5pm"
     location: "Palos Verdes High School, PVE (Courtyard)"
     mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
-    address: 600 Cloyden Road, Palos Verdes Estates
+    address: 600 Cloyden Road, Palos Verdes Estates, CA
     title: "Picnic and Pops"
     pdf: "concerts/2015_16/2016_7-10.pdf"
   - date: "May 15, 2016"
     time: "3pm"
     location: "Rolling Hills Covenant Church Community Center"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
     pdf: "concerts/2015_16/2016_5-15.pdf"
     title: "We're Turning 20!"
   - date: "March 6, 2016"
     time: "3pm"
     location: "Rolling Hills Covenant Church Community Center"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
     title: Music to Warm a Winter Day
     pdf: "concerts/2015_16/2016_3-6.pdf"
   - date: "December 6, 2015"
@@ -132,14 +132,14 @@
     location: "Rolling Hills Covenant Church Community Center"
     pdf: "concerts/2015_16/2015_12-6.pdf"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
   - date: "October 18, 2015"
     time: "3pm"
     title: "Fall Into Halloween"
     location: "Rolling Hills Covenant Church Community Center"
     pdf: "concerts/2015_16/2015_10-18.pdf"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
 - Season: "2014-2015"
   concerts:
   - date: "July 12, 2015"
@@ -147,25 +147,25 @@
     location: "Palos Verdes High School, PVE (Courtyard)"
     pdf: "concerts/2014_15/2015_07-12.pdf"
     mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
-    address: 600 Cloyden Road, Palos Verdes Estates
+    address: 600 Cloyden Road, Palos Verdes Estates, CA
   - date: "May 17, 2015"
     title: "And All That Jazz"
     location: "RHCC Community Center"
     pdf: "concerts/2014_15/2015_05-17.pdf"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
   - date: "December 7, 2014"
     title: "Home for the Holidays"
     location: "RHCC Community Center"
     pdf: "concerts/2014_15/2014_12-07.pdf"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
   - date: "October 19, 2014"
     title: "Bewitching Hour"
     location: "RHCC Community Center"
     pdf: "concerts/2014_15/2014_10-19.pdf"
     mapLink: https://maps.google.com/maps?q=735+silver+spur+road+90274&hl=en&sll=37.269174,-119.306607&sspn=14.931389,28.54248&hnear=735+Silver+Spur+Rd,+Rolling+Hills+Estates,+Los+Angeles,+California+90274&t=m&z=17
-    address: 735 Silver Spur Road, Rolling Hills Estates
+    address: 735 Silver Spur Road, Rolling Hills Estates, CA
 - Season: "2013-2014"
   concerts:
   - date: "July 13, 2014"
@@ -205,9 +205,6 @@
   - date: "March 11, 2012"
     title: "In From the Cold"
     pdf: "concerts/2012_03-11.pdf"
-  - date: "December 7, 2011"
-    title: "An Epic Christmas"
-    pdf: "concerts/2011_12-07.pdf"
   - date: "December 7, 2011"
     title: "An Epic Christmas"
     pdf: "concerts/2011_12-07.pdf"
