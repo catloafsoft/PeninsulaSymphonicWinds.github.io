@@ -66,6 +66,29 @@ image: /img/gallery/IMG_2071.jpg
 </div>
 <!-- End 3 columns -->
 
+
+<!-- Start last video -->
+<div id="video" class="concertvideo">
+	<div class="container-fluid">
+		<h2 class="section-title">Our Last Concert</h2>
+
+               {% for season in site.data.concerts %}
+                        {% if season.current %}
+                                {% for concert in season.concerts %}
+                                        {% if concert.video %}
+					<div class="video-container">
+  						<iframe width="560" height="315" src="//www.youtube.com/embed/{{ concert.youtube }}" frameborder="0" allowfullscreen></iframe>
+					</div>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+					
+		<h3><a href="{{ site.youtube }}">Watch our previous concerts on YouTube</a></h3>
+	</div>
+</div>
+<!-- End last video -->
+
 <!-- Start About -->
 <div id="about" class="about">
 	<div class="container-fluid">
@@ -108,28 +131,6 @@ image: /img/gallery/IMG_2071.jpg
 	</div>
 </div>
 <!-- End new members -->
-
-<!-- Start last video -->
-<div id="video" class="concertvideo">
-	<div class="container-fluid">
-		<h2 class="section-title">Our Last Concert</h2>
-
-               {% for season in site.data.concerts %}
-                        {% if season.current %}
-                                {% for concert in season.concerts %}
-                                        {% if concert.video %}
-					<div class="video-container">
-  						<iframe width="560" height="315" src="//www.youtube.com/embed/{{ concert.youtube }}" frameborder="0" allowfullscreen></iframe>
-					</div>
-					{% endif %}
-				{% endfor %}
-			{% endif %}
-		{% endfor %}
-					
-		<h3><a href="{{ site.youtube }}">Watch our previous concerts on YouTube</a></h3>
-	</div>
-</div>
-<!-- End last video -->
 
 <!-- Start Gallery -->
 <div id="gallery" class="gallery">
