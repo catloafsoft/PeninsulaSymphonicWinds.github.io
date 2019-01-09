@@ -18,6 +18,8 @@
   - date: "December 1, 2018"
     time: "3pm"
     location: "Salvation Army Torrance Chapel"
+    youtube: "2uMTEe4b4-0"
+    video: true
     mapLink: https://www.google.com/maps/place/4223+Emerald+St,+Torrance,+CA+90503/@33.8419126,-118.360556,17z/data=!4m5!3m4!1s0x80c2b4ce2cc5aa61:0x6abc70f83a67c2f1!8m2!3d33.8419126!4d-118.3583673
     address: 4223 Emerald St, Torrance, CA
     title: "Music that Inspires and Excites"
@@ -30,7 +32,6 @@
     address: 4223 Emerald St, Torrance, CA
     pdf: "concerts/2018_19/2018_10-13.pdf"
     title: "Literary Classics"
-    video: true
 - Season: "2017-2018"
   concerts:
   - date: "July 8, 2018"
