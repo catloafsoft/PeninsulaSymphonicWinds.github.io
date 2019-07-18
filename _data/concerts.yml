@@ -6,6 +6,8 @@
     location: "Palos Verdes High School, PVE (Courtyard)"
     mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
     address: 600 Cloyden Road, Palos Verdes Estates, CA
+    video: true
+    youtube: "nVjBXKDkrL8"
     title: "Picnic and Pops - Admission Free"
     pdf: "concerts/2018_19/2019_7-14.pdf"
     current: true
@@ -14,7 +16,6 @@
     title: "Masterpieces Then and Now"
     pdf: "concerts/2018_19/2019_5-18.pdf"
     location: "Marsee Auditorium, El Camino College"
-    video: true
     youtube: "gNH4P__gCto"
     mapLink: https://goo.gl/maps/QrzLJNit5UE2
     address: 4223 Emerald St, Torrance, CA
