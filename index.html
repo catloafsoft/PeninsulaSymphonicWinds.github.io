@@ -11,37 +11,39 @@ image: /img/gallery/IMG_2071.jpg
 <div class="three-shade-col">
 	<div class="col-sm-4">
 		<h3>Next Concert</h3>
-		{% for season in site.data.concerts %}
-			{% if season.current %}
-				{% for concert in season.concerts %}
-					{% if concert.current %}
-						<h4>
-							{% if concert.pdf %}
-							<a href="{{ concert.pdf }}" target="_blank">
-								{{ concert.title }}
-							</a>
-							{% else %}
-								{{ concert.title }}
+		<h5>Postponed until 2021</h5>
+		{% comment %} 
+			{% for season in site.data.concerts %}
+				{% if season.current %}
+					{% for concert in season.concerts %}
+						{% if concert.current %}
+							<h4>
+								{% if concert.pdf %}
+								<a href="{{ concert.pdf }}" target="_blank">
+									{{ concert.title }}
+								</a>
+								{% else %}
+									{{ concert.title }}
+								{% endif %}
+							</h4>
+							<h5>{{ concert.date }}, {{ concert.time }}</h5>
+							<h5>{{ concert.location }}</h5>
+							{% if concert.youtube %}
+							<p><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
+							<a href="https://www.youtube.com/watch?v={{ concert.youtube }}" target="_blank">Watch Now!</a></p>
 							{% endif %}
-						</h4>
-						<h5>{{ concert.date }}, {{ concert.time }}</h5>
-						<h5>{{ concert.location }}</h5>
-						{% if concert.youtube %}
-						<p><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
-						<a href="https://www.youtube.com/watch?v={{ concert.youtube }}" target="_blank">Watch Now!</a></p>
+							<p><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+								<a href="{{ concert.mapLink }}">{{ concert.address }}</a>
+							</p>
 						{% endif %}
-						<p><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-							<a href="{{ concert.mapLink }}">{{ concert.address }}</a>
-						</p>
-					{% endif %}
-				{% endfor %}
-			{% endif %}
-		{% endfor %}
-
+					{% endfor %}
+				{% endif %}
+			{% endfor %}
+		{% endcomment %}
 		<h4><a href="#concerts" data-toggle="modal" data-target="#concerts">See a list of upcoming and past concerts</a></h4>
 	</div>
 	<div class="col-sm-4">
-		<h3>Rehearsals - postponed until April</h3>
+		<h3>Rehearsals - postponed until 2021</h3>
 		<h4>
 			{{ site.rehearsal.day }}, {{ site.rehearsal.time}}
 		</h4>
