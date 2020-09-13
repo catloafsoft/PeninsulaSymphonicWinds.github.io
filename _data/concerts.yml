@@ -1,7 +1,14 @@
 - Season: "2019-2020"
   current: true
   concerts: 
-  - date: "July 12, 2020"
+    
+  - date: "August 9, 2020"
+    time: "12am"
+    location: "Palos Verdes High School, PVE (Courtyard)"
+    address: Online
+    title: "Irish Tune from County Derry"
+    youtube: "kTrXZ6nEe0M"
+  - date: "July 12, 2020-- cancelled"
     time: "5pm"
     location: "Palos Verdes High School, PVE (Courtyard)"
     mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b

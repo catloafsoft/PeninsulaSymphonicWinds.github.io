@@ -32,9 +32,13 @@ image: /img/gallery/IMG_2071.jpg
 							<p><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
 							<a href="https://www.youtube.com/watch?v={{ concert.youtube }}" target="_blank">Watch Now!</a></p>
 							{% endif %}
-							<p><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-								<a href="{{ concert.mapLink }}">{{ concert.address }}</a>
-							</p>
+							{% if concert.mapLink %}
+								<p><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+									<a href="{{ concert.mapLink }}">{{ concert.address }}</a>
+								</p>
+							{% else %}
+								<p>{{ concert.address }}</p>
+							{% endif %}
 						{% endif %}
 					{% endfor %}
 				{% endif %}
