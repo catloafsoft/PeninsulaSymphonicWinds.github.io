@@ -2,14 +2,20 @@
   current: true
   concerts: 
     
+  - date: "December 21, 2020"
+    time: "12am"
+    location: "Palos Verdes High School, PVE (Courtyard)"
+    address: Online
+    title: "Arsenal"
+    youtube: "XabuvhnADkY"
+    current: true
+    video: true
   - date: "August 9, 2020"
     time: "12am"
     location: "Palos Verdes High School, PVE (Courtyard)"
     address: Online
     title: "Irish Tune from County Derry"
     youtube: "kTrXZ6nEe0M"
-    current: true
-    video: true
   - date: "July 12, 2020-- cancelled"
     time: "5pm"
     location: "Palos Verdes High School, PVE (Courtyard)"
