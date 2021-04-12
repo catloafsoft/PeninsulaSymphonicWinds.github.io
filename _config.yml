@@ -7,36 +7,25 @@ logo: /svg/min/logo.svg
 
 # Hero
 hero: 
-    hero_img: psw_016.jpg
-    hero_title: Peninsula Symphonic Winds
+    hero_img: header1-1.png
+    hero_title: Profundo Bono
 
 # Contact form
 api_token: # Enter API token here
-
-# rehearsal time/day
-rehearsal:
-    day: Wednesdays
-    time: 7:30pm-9:45pm
-    location: Los Angeles Harbor College<br>Music Building Room 107
-    address: 1111 Figueroa Place, Wilmington CA 90744
-    mapLink: https://www.google.com/maps/place/33°47'07.7%22N+118°17'04.6%22W/@33.7854721,-118.2851502,329m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0x80dd35ec28216c31:0xa16eba145772f43c!2sLagoon+Dr+%26+W+L+St,+Los+Angeles,+CA+90744!3b1!8m2!3d33.7860322!4d-118.2842286!3m5!1s0x0:0x0!7e2!8m2!3d33.785471!4d-118.2846033
     
 # Social settings
 social:
   links:
-    - https://www.facebook.com/peninsulawinds/
-    - https://twitter.com/peninsula_winds
+    - https://www.facebook.com/ProfundoBono/
 facebook:
-  publisher: https://www.facebook.com/peninsulawinds/
-twitter: 
-  username: peninsula_winds
+  publisher: https://www.facebook.com/ProfundoBono/
 #instagram: http://instagram.com
-youtube: https://www.youtube.com/channel/UCLs0HjcVt8pEJqNknpQD14A
+youtube: https://www.youtube.com/channel/UCPFa51xPuziGkjQtjWuWKhA
 #skype: skype:obaez_design?userinfo
 #feed: yes
 
 # Footer
-copyright: Peninsula Symphonic Winds - All rights reserved
+copyright: Profundo Bono - All rights reserved
 
 sass:
   sass_dir: _scss
