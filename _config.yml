@@ -25,7 +25,7 @@ youtube: https://www.youtube.com/channel/UCPFa51xPuziGkjQtjWuWKhA
 #feed: yes
 
 # Footer
-copyright: Profundo Bono - All rights reserved
+copyright: Profundo Bono - All rights reserved - Website by <a href="https://www.catloafsoft.com/" target="_new">Catloaf Software, LLC</a>
 
 sass:
   sass_dir: _scss
