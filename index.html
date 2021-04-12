@@ -8,25 +8,41 @@ image: /img/gallery/IMG_2071.jpg
 <!-- End Hero -->
 {% if site.data.show.includeshow %}
 	<div class="three-shade-col">
+		{% assign performance1 = site.data.show.performances[0] %}
+		{% assign performance2 = site.data.show.performances[1] %}
+		{% assign performance3 = site.data.show.performances[2] %}
 		<div class="col-sm-4">
-			<h3>Next Show</h3>
+			<h3>{{ performance1.title }}</h3>
+			<p>
+				{{ performance1.date }}
+				{{ performance1.time }}
+			</p>
+			<p>
+				<a href="{{ performance1.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ performance1.location }}</a>
+			</p>
 		</div>
 		<div class="col-sm-4">
-			<h3>
-				{{ site.data.show.date }},
-				{{ site.data.show.time }}
-			</h4>
+			<h3>{{ performance2.title }}</h3>
+			<p>
+				{{ performance2.date }}
+				{{ performance2.time }}
+			</p>
+			<p>
+				<a href="{{ performance2.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ performance2.location }}</a>
+			</p>
 		</div>
 		<div class="col-sm-4">
-			<h3>
-				<a href="{{ site.data.show.mapLink }}">
-					{{ site.data.show.address1 }}<br>
-					{{ site.data.show.address2 }}
-				</a>
-			</h3>
+			<h3>{{ performance3.title }}</h3>
+			<p>
+				{{ performance3.date }}
+				{{ performance3.time }}
+			</p>
+			<p>
+				<a href="{{ performance3.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ performance3.location }}</a>
+			</p>
 		</div>
 	</div>
-{% endif %}
+{% endif %}ß
 
 <!-- Start About -->
 <div id="about" class="about">

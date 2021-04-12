@@ -1,6 +1,20 @@
-includeshow: false
-date: May 5, 2021
-time: 8pm
-address1: 1234 Mockingbird Lane
-address2: Newark, Delaware 19801
-mapLink: https://www.google.com/maps/place/Palos+Verdes+High+School/@33.77921,-118.419825,17z/data=!3m1!4b1!4m2!3m1!1s0x80dd4c9a7edf001d:0xb187e59e4832f55b
+includeshow: true
+performances: 
+  - date: "November  12, 2021"
+    time: "8pm"
+    location: "Laird Performing Arts Center, The Tatnall School"
+    address: "1501 Barley Mill Road, Wilmington, DE 19807"
+    title: "The Scottish Play"
+    mapLink: https://goo.gl/maps/1FVKpwgMi4x8rX3R9
+  - date: "November  13, 2021"
+    time: "3pm"
+    location: "Laird Performing Arts Center, The Tatnall School"
+    address: "1501 Barley Mill Road, Wilmington, DE 19807"
+    title: "The Scottish Play"
+    mapLink: https://goo.gl/maps/1FVKpwgMi4x8rX3R9
+  - date: "November  14, 2021"
+    time: "5pm"
+    location: "Schwartz Center for the Arts"
+    address: "226 S State St, Dover, DE 19901"
+    title: "Hamlet"
+    mapLink: https://goo.gl/maps/ZiAUBxkeD6oaX9m5A
