@@ -1,5 +1,10 @@
 {% include doctype-head.html %}
 <body data-spy="scroll" data-offset="80" data-target=".scrollspy" id="top">
+    {% if site.google_tag %}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {% endif %}
     {% include svg-defs.svg %}
     <!--[if lt IE 10]>
         <p class="oldie">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> to better experience this site.</p>
@@ -11,10 +16,6 @@
            
     {% include footer.html %}
     
-    {% if site.analytics %}
-        {% include analytics.html %}
-    {% endif %}
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="{{ site.baseurl }}/js/all.min.js"></script>

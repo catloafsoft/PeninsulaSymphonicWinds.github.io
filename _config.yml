@@ -1,8 +1,8 @@
 # Site settings
-title: Peninsula Symphonic Winds
-description: "A community concert band based in Torrance and Palos Verdes, California"
+title: Profundo Bono
+description: "A non-profit theater company of Delaware lawyers and legal professionals"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://pswinds.org" # the name of your domain
+url: "https://profundobono.com" # the name of your domain
 logo: /svg/min/logo.svg
 
 # Hero
@@ -48,5 +48,5 @@ exclude: [
 ]
 
 # Theme Settings
-analytics: 
-google_verification: GyLoky4K_7PDHveeLuvncOM83dNwdGrbBeknxgtP_bE
+google_tag: GTM-NRZD38Z
+google_verification:

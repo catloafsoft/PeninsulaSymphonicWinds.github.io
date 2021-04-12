@@ -1,45 +1,45 @@
----
+--
 layout: none
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:{{ site.url }}
 URL:{{ site.url }}/concerts.ics
-NAME: Peninsula Symphonic Winds Concerts
-X-WR-CALNAME: Peninsula Symphonic Winds Concerts
-DESCRIPTION: Scheduled concerts for the Peninsula Symphonic Winds in L.A. South Bay
-X-WR-DESC: Scheduled concerts for the Peninsula Symphonic Winds in L.A. South Bay
-TIMEZONE-ID:America/Los_Angeles
-X-WR-TIMEZONE:America/Los_Angeles
+NAME: Profundo Bono Performances
+X-WR-CALNAME: Profundo Bono Performances
+DESCRIPTION: Scheduled performances for Profundo Bono in Delaware
+X-WR-DESC: Scheduled performances for Profundo Bono in Delaware
+TIMEZONE-ID:America/New_York
+X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT24H
 X-PUBLISHED-TTL:PT24H
 METHOD:PUBLISH
 BEGIN:VTIMEZONE
-TZID:America/Los_Angeles
-X-LIC-LOCATION:America/Los_Angeles
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
 BEGIN:DAYLIGHT
-TZOFFSETFROM:-0800
-TZOFFSETTO:-0700
-TZNAME:PDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
 DTSTART:19700308T020000
 RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
 END:DAYLIGHT
 BEGIN:STANDARD
-TZOFFSETFROM:-0700
-TZOFFSETTO:-0800
-TZNAME:PST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
 DTSTART:19701101T020000
 RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 {% for season in site.data.concerts %}{% for concert in season.concerts %}BEGIN:VEVENT
-UID:{{ concert.date | date: "%Y%m%d" }}@pswinds.org
-ORGANIZER;CN="Organizer Name":MAILTO:info@pswinds.org
+UID:{{ concert.date | date: "%Y%m%d" }}@profundobono.com
+ORGANIZER;CN="Organizer Name":MAILTO:info@profundobono.com
 LOCATION:{{ concert.address | replace: ",", "\," }}
 SUMMARY:Concert: {{ concert.title }}
 CLASS:PUBLIC
-DTSTART;TZID=America/Los_Angeles:{{ concert.date | date: "%Y%m%d" }}{% if concert.time %}T{{ concert.time | date: "%H%M" }}00{% endif %}
-DTEND;TZID=America/Los_Angeles:{{ concert.date | date: "%Y%m%d" }}{% if concert.time %}T{{ concert.time | date: "%H" | plus: 2 }}0000{% endif %}
+DTSTART;TZID=America/New_York:{{ concert.date | date: "%Y%m%d" }}{% if concert.time %}T{{ concert.time | date: "%H%M" }}00{% endif %}
+DTEND;TZID=America/New_York:{{ concert.date | date: "%Y%m%d" }}{% if concert.time %}T{{ concert.time | date: "%H" | plus: 2 }}0000{% endif %}
 DTSTAMP:{{ concert.date | date: "%Y%m%d" }}T170000Z
 END:VEVENT
 {% endfor %}{% endfor %}END:VCALENDAR
