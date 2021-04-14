@@ -3,7 +3,7 @@ title: Profundo Bono
 description: "A non-profit theater company of Delaware lawyers and legal professionals"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://profundobono.com" # the name of your domain
-logo: /svg/min/logo.svg
+logo: img/logo.jpg
 
 # Hero
 hero: 
