@@ -1,6 +1,17 @@
-# DentistSmile - Jekyll Theme, adapted for Peninsula Symphonic Winds
+# DentistSmile - Jekyll Theme, adapted for Profundo Bono
 
-A single page Jekyll theme originally for dental clinics. It's easily customizable and responsive. It comes with svg icons, google map and a working contact form. Docs can be found [here](http://obaez.com/dentistsmile-docs/).
+The contents of the site can be edited via the following links:
 
-Here is a [live Demo](http://obaez.com/dentistsmile/)
+## Page Sections
 
+These pages should be filled using [Markdown](https://www.markdownguide.org/basic-syntax/) or HTML.
+
+* [About Us](https://github.com/catloafsoft/profundobono.com/blob/master/_includes/about.md)
+* [Ads and Sponsorships](https://github.com/catloafsoft/profundobono.com/blob/master/_includes/ads.md)
+* [Legal Disclaimers](https://github.com/catloafsoft/profundobono.com/blob/master/_includes/legal.md)
+
+## Schedule
+
+This YAML file is fairly self-explanatory, with three sections for shows. It is important to keep the existing indentation.
+
+* [Shows](https://github.com/catloafsoft/profundobono.com/blob/master/_data/show.yml)
