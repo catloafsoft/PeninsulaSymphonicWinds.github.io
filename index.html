@@ -10,36 +10,42 @@ layout: default
 		{% assign performance1 = site.data.show.performances[0] %}
 		{% assign performance2 = site.data.show.performances[1] %}
 		{% assign performance3 = site.data.show.performances[2] %}
-		<div class="col-sm-4">
-			<h3>{{ performance1.title }}</h3>
-			<p>
-				{{ performance1.date }}
-				{{ performance1.time }}
-			</p>
-			<p>
-				<a href="{{ performance1.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ performance1.location }}</a>
-			</p>
-		</div>
-		<div class="col-sm-4">
-			<h3>{{ performance2.title }}</h3>
-			<p>
-				{{ performance2.date }}
-				{{ performance2.time }}
-			</p>
-			<p>
-				<a href="{{ performance2.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ performance2.location }}</a>
-			</p>
-		</div>
-		<div class="col-sm-4">
-			<h3>{{ performance3.title }}</h3>
-			<p>
-				{{ performance3.date }}
-				{{ performance3.time }}
-			</p>
-			<p>
-				<a href="{{ performance3.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ performance3.location }}</a>
-			</p>
-		</div>
+		{% if performance1 %}
+			<div class="col-sm-4">
+				<h3>{{ performance1.title }}</h3>
+				<p>
+					{{ performance1.date }}
+					{{ performance1.time }}
+				</p>
+				<p>
+					<a href="{{ performance1.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ performance1.location }}</a>
+				</p>
+			</div>
+		{% endif %}
+		{% if performance2 %}
+			<div class="col-sm-4">
+				<h3>{{ performance2.title }}</h3>
+				<p>
+					{{ performance2.date }}
+					{{ performance2.time }}
+				</p>
+				<p>
+					<a href="{{ performance2.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ performance2.location }}</a>
+				</p>
+			</div>
+		{% endif %}
+		{% if performance3 %}
+			<div class="col-sm-4">
+				<h3>{{ performance3.title }}</h3>
+				<p>
+					{{ performance3.date }}
+					{{ performance3.time }}
+				</p>
+				<p>
+					<a href="{{ performance3.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ performance3.location }}</a>
+				</p>
+			</div>
+		{% endif %}
 	</div>
 {% endif %}
 
