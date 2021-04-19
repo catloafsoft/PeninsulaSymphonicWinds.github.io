@@ -22,11 +22,3 @@ Whenever you edit a file, you need to create a "commit" for your changes. This i
 
 Just describe what you did (it will help see the history of changes over time) and submit, and it should become live within a minute or so after GitHub regenerates the site. You can give it a one-liner description as well as an extended description if you want.
 
-## More advanced edits
-
-Besides the Markdown pages above, there are a few more advanced files that contain text for the template. If this looks intimidating, just reach out to us.
-
-This template uses a YAML files to describe additional structure in [Jekyll Configuration](https://github.com/megastep/adamhillerlaw.com/blob/master/_config.yml)
-
-This is more technically involved so please reach out to us in case of any doubt, particularly if it's for anything more complicated than a simple text change.
-

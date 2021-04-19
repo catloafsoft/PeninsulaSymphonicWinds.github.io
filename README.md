@@ -1,5 +1,7 @@
 # DentistSmile - Jekyll Theme, adapted for Profundo Bono
 
+For general help on editing files on Github, please refer to the included [document on the topic](EDITING.md).
+
 The contents of the site can be edited via the following links:
 
 ## Page Sections
