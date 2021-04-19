@@ -44,7 +44,11 @@ exclude: [
     Gemfile,
     Gemfile.lock,
     .gitignore,
-    svg
+    svg,
+    tutorial,
+    README.md,
+    LICENSE.md,
+    EDITING.md
 ]
 
 # Theme Settings
