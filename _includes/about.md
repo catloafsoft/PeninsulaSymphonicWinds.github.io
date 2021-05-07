@@ -10,7 +10,7 @@ As many of you know, Judge Young has left us but we are committed to carrying on
 * To welcome and provide an avocational opportunity for all volunteers interested in the theatre arts to participate in the many activities of community theatre.
 * To generate proceeds for donation to third-party non-profit organizations furnishing or enabling charitable services to the community.
 
-Our fundraising benefits the Combined Campaign for Justice, which enables Delaware’s three legal services agencies–Community Legal Aid Society, Inc., Delaware Volunteer Legal Services, Inc., and Legal Services Corporation of Delaware, Inc.–to continue to provide legal services to low-income Delaware families in need of assistance. To learn more about CCJ, you can visit [their website here](https://delawareccj.org/).
+Our fundraising benefits the Combined Campaign for Justice, which enables Delaware’s three legal services agencies–Community Legal Aid Society, Inc., Delaware Volunteer Legal Services, Inc., and Legal Services Corporation of Delaware, Inc.–to continue to provide legal services to low-income Delaware families in need of assistance. To learn more about CCJ, you can visit [their website here](https://delawareccj.org/){:target="_blank"}.
 
 Persons interested in participating should contact:
 
