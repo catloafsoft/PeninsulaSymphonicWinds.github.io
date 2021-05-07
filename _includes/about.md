@@ -14,6 +14,6 @@ Our fundraising benefits the Combined Campaign for Justice, which enables Delawa
 
 Persons interested in participating should contact:
 
-Adam Hiller, Esquire, [ahiller@adamhillerlaw.com](mailto:ahiller@adamhillerlaw.com).
+[Adam Hiller, Esquire](mailto:ahiller@adamhillerlaw.com)
 
 Thank you very much for being a supporter of our cause!

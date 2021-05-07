@@ -49,6 +49,14 @@ layout: default
 	</div>
 {% endif %}
 
+<!-- Start Home -->
+<div id="home" class="home">
+	<div class="container-fluid">
+		{% capture home %}{% include home.md %}{% endcapture %}
+		{{ home | markdownify }}
+	</div>
+</div>
+<!-- End About -->
 <!-- Start About -->
 <div id="about" class="about">
 	<div class="container-fluid">
@@ -58,7 +66,25 @@ layout: default
 	</div>
 </div>
 <!-- End About -->
-<!-- Start ads -->
+<!-- Start About the Show -->
+<div id="aboutshow" class="aboutshow">
+	<div class="container-fluid">
+		<h2 class="section-title">About the Show</h2>
+		{% capture aboutshow %}{% include aboutshow.md %}{% endcapture %}
+		{{ aboutshow | markdownify }}
+	</div>
+</div>
+<!-- End About The Show -->
+<!-- Start Tickets -->
+<div id="tickets" class="tickets">
+	<div class="container-fluid">
+		<h2 class="section-title">Tickets</h2>
+		{% capture tickets %}{% include tickets.md %}{% endcapture %}
+		{{ tickets | markdownify }}
+	</div>
+</div>
+<!-- End Tickets -->
+<!-- Start Ads -->
 <div id="ads" class="ads">
 	<div class="container-fluid">
 		<h2 class="section-title">Ads and Sponsorships</h2> 
@@ -66,7 +92,7 @@ layout: default
 		{{ ads | markdownify }}
 	</div>
 </div>
-<!-- End support -->
+<!-- End Ads -->
 <!-- Start legal -->
 <div id="legal" class="legal">
 	<div class="container-fluid">
