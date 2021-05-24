@@ -9,6 +9,8 @@ The contents of the site can be edited via the following links:
 These pages should be filled using [Markdown](https://www.markdownguide.org/basic-syntax/) or HTML.
 
 * [About Us](https://github.com/catloafsoft/profundobono.com/blob/master/_includes/about.md)
+* [About the Show](https://github.com/catloafsoft/profundobono.com/blob/master/_includes/aboutshow.md)
+* [Tickets](https://github.com/catloafsoft/profundobono.com/blob/master/_includes/tickets.md)
 * [Ads and Sponsorships](https://github.com/catloafsoft/profundobono.com/blob/master/_includes/ads.md)
 * [Legal Disclaimers](https://github.com/catloafsoft/profundobono.com/blob/master/_includes/legal.md)
 
