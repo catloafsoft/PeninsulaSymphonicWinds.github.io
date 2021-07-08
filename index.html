@@ -53,6 +53,15 @@ layout: default
 	</div>
 </div>
 <!-- End About -->
+<!-- Start Home -->
+<div id="auditions" class="auditions">
+	<div class="container-fluid">
+		<h2 class="section-title">Auditions</h2>
+		{% capture auditions %}{% include auditions.md %}{% endcapture %}
+		{{ auditions | markdownify }}
+	</div>
+</div>
+<!-- End About -->
 <!-- Start About -->
 <div id="about" class="about">
 	<div class="container-fluid">
