@@ -13,7 +13,8 @@ jobs:
   dev:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/dev'
-
+    environment: s3-deploy
+    
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
