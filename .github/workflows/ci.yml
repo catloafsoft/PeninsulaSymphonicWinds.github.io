@@ -22,7 +22,6 @@ jobs:
       run: |
         chmod 777 ${{ github.workspace }}
         cd ${{ github.workspace }}
-        ./gen-thumbs.sh
         docker run -v ${{ github.workspace }}:/srv/jekyll  -e RUBYOPTS="-W0" -e JEKYLL_ENV=development \
         jekyll/builder:latest jekyll build --config _config.yml,_config_dev.yml --strict_front_matter --future --trace
 
