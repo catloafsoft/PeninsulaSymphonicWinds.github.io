@@ -1,4 +1,5 @@
-includeshow: false
+show: false
+show_dev: true
 performances: 
   - date: "November 12, 2021"
     time: "8:00 PM"
@@ -6,6 +7,7 @@ performances:
     address: "1501 Barley Mill Road, Wilmington, DE 19807"
     title: "Finishing School"
     mapLink: https://goo.gl/maps/1FVKpwgMi4x8rX3R9
+    hide: true
   - date: "November 13, 2021"
     time: "8:00 PM"
     location: "Tatnall School, Laird Performing Arts Center"
@@ -18,3 +20,4 @@ performances:
     address: "226 S State St, Dover, DE 19901"
     title: "Finishing School"
     mapLink: https://goo.gl/maps/ZiAUBxkeD6oaX9m5A
+    buy_dev: https://buy.stripe.com/test_00g7uberd73C2Kk6oo
