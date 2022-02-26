@@ -13,6 +13,9 @@ For only $2,500, this sponsorship level provides you with the following benefits
 * 20 tickets to whichever performance(s) you would like
 * Depending upon availability, additional tickets at a discounted price
 
+{% if jekyll.environment != "production" %}
+<a class="btn btn-primary" href="https://buy.stripe.com/test_8wMaGn2IvfA81Gg147" role="button" target="_new">Sponsor Now!</a>
+{% endif %}
 #### “The Critics’ Circle”
 
 For only $2,000, this sponsorship level provides you with the following benefits:
@@ -22,6 +25,10 @@ For only $2,000, this sponsorship level provides you with the following benefits
 * 15 tickets to whichever performance(s) you would like
 * Depending upon availability, additional tickets at a discounted price
 
+{% if jekyll.environment != "production" %}
+<a class="btn btn-primary" href="https://buy.stripe.com/test_bIY15Nbf13Rq4Ss9AC" role="button" target="_new">Sponsor Now!</a>
+{% endif %}
+
 #### “The Ovation”
 
 For only $1,500, this sponsorship level provides you with the following benefits:
@@ -30,6 +37,10 @@ For only $1,500, this sponsorship level provides you with the following benefits
 * A full-page ad in the program (valued at $500)
 * 10 tickets to whichever performance(s) you would like
 * Depending upon availability, additional tickets at a discounted price
+
+{% if jekyll.environment != "production" %}
+<a class="btn btn-primary" href="https://buy.stripe.com/test_eVag0Hdn973CgBaaEF" role="button" target="_new">Sponsor Now!</a>
+{% endif %}
 
 You can imagine the great exposure to a fine audience of people who purchase goods and services, in addition ultimately to helping deserving people who really need the assistance. As you can imagine, there is also a high concentration of lawyers, legal professionals, court professionals and para-professionals, and legal staff who attend our shows, so your audience comes naturally targeted.
 
