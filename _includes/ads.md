@@ -42,6 +42,6 @@ Even if you don’t choose to become a sponsor, a very significant portion of th
 
 Persons interested in becoming sponsors or placing program ads should contact:
 
-[Adam Hiller, Esquire](mailto:ahiller@adamhillerlaw.com)
+[Adam Hiller at ahiller@adamhillerlaw.com](mailto:ahiller@adamhillerlaw.com)
 
 Thank you very much for being a supporter of our cause! 
