@@ -71,15 +71,8 @@ layout: default
 <div id="tickets" class="tickets">
 	<div class="container-fluid">
 		<h2 class="section-title">Tickets</h2>
-		{% if jekyll.environment == "production" %}
 		{% capture tickets %}{% include tickets.md %}{% endcapture %}
 		{{ tickets | markdownify }}
-		{% else %}
-		<p>Purchase tickets for our upcoming show here.</p>
-		<p>
-			<a class="btn btn-primary" href="https://buy.stripe.com/test_00g7uberd73C2Kk6oo" role="button" target="_new">Tickets</a>
-		</p>
-		{% endif %}
 	</div>
 </div>
 <!-- End Tickets -->
