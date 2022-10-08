@@ -25,13 +25,13 @@ layout: default
 			{% if jekyll.environment == "production" %}
 			  {% if show.buy %}
 			  <p>
-				<a class="btn btn-primary" href="{{ show.buy }}" role="button" target="_new">Tickets</a>
+				<a class="btn btn-primary" href="{{ show.buy }}" role="button" target="_blank">Tickets</a>
 			  </p>
 			  {% endif %}
 			{% else %}
 			  {% if show.buy_dev %}
 			  <p>
-				<a class="btn btn-primary" href="{{ show.buy_dev }}" role="button" target="_new">Tickets</a>
+				<a class="btn btn-primary" href="{{ show.buy_dev }}" role="button" target="_blank">Tickets</a>
 			  </p>
 			  {% endif %}
 			{% endif %}
