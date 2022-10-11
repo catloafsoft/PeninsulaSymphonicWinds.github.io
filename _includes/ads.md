@@ -37,11 +37,11 @@ You can imagine the great exposure to a fine audience of people who purchase goo
 
 Even if you don’t choose to become a sponsor, a very significant portion of the proceeds we donate come from program advertising in our program, which is distributed free to each ticket holder. The rates are extremely reasonable:
 
-* Full page ads are $500.00
-* Half-page ads are $250.00
+* Full page ads are $750.00
+* Half-page ads are $500.00
 
 Persons interested in becoming sponsors or placing program ads should contact:
 
-[Adam Hiller, Esquire](mailto:ahiller@adamhillerlaw.com)
+[Adam Hiller at ahiller@adamhillerlaw.com](mailto:ahiller@adamhillerlaw.com)
 
 Thank you very much for being a supporter of our cause! 
