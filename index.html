@@ -23,17 +23,17 @@ layout: default
 				<a href="{{ show.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ show.location }}</a>
 			</p>
 			{% if jekyll.environment == "production" %}
-			  {% if show.buy %}
-			  <p>
-				<a class="btn btn-primary" href="{{ show.buy }}" role="button" target="_blank">Tickets</a>
-			  </p>
-			  {% endif %}
+				{% if show.buy %}
+					<p>
+						<a class="btn btn-primary" href="{{ show.buy }}" role="button" target="_blank">Tickets</a>
+					</p>
+				{% endif %}
 			{% else %}
-			  {% if show.buy_dev %}
-			  <p>
-				<a class="btn btn-primary" href="{{ show.buy_dev }}" role="button" target="_blank">Tickets</a>
-			  </p>
-			  {% endif %}
+				{% if show.buy_dev %}
+					<p>
+						<a class="btn btn-primary" href="{{ show.buy_dev }}" role="button" target="_blank">Tickets</a>
+					</p>
+				{% endif %}
 			{% endif %}
 		{% endif %}
 		</div>
@@ -55,6 +55,15 @@ layout: default
 		<h2 class="section-title">About Us</h2>
 		{% capture about %}{% include about.md %}{% endcapture %}
 		{{ about | markdownify }}
+	</div>
+</div>
+<!-- End About -->
+<!-- Start Auditions -->
+<div id="auditions" class="auditions">
+	<div class="container-fluid">
+		<h2 class="section-title">Auditions</h2>
+		{% capture auditions %}{% include auditions.md %}{% endcapture %}
+		{{ auditions | markdownify }}
 	</div>
 </div>
 <!-- End About -->
