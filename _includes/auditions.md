@@ -1,5 +1,3 @@
-Auditions
-
 Profundo Bono is pleased to announce our 2024 show!
 
 **Anna Karenina: From Train to Trial**
