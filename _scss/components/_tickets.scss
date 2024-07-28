@@ -1,6 +1,7 @@
 /* TICKETS
 -------------------------------------------------*/
 .tickets {
+    margin-bottom: $space;
     @extend %space;
     background: $colorBg;
     h4 {
@@ -10,5 +11,4 @@
     a {
         text-decoration: underline;
     }
-    margin-bottom: $space;
 }

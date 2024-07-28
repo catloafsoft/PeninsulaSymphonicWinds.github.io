@@ -1,6 +1,7 @@
 /* ABOUT
 -------------------------------------------------*/
 .about {
+    margin-bottom: $space;
     @extend %space;
     color: $white;
     background: lighten($colorPrimary, 2%);
@@ -15,5 +16,4 @@
         color: $white;
         text-decoration: underline;
     }
-    margin-bottom: $space;
 }
