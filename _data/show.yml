@@ -1,5 +1,5 @@
 show: false
-show_dev: true
+show_dev: false
 performances: 
   - date: "November 11, 2022"
     time: "7:30 PM"
@@ -7,18 +7,15 @@ performances:
     address: "1501 Barley Mill Road, Wilmington, DE 19807"
     title: "Finishing School"
     mapLink: https://goo.gl/maps/1FVKpwgMi4x8rX3R9
-    buy_dev: https://buy.stripe.com/7sI5kp8ndfXS6xabIL
   - date: "November 12, 2022"
     time: "7:30 PM"
     location: "Tatnall School, Laird Performing Arts Center"
     address: "1501 Barley Mill Road, Wilmington, DE 19807"
     title: "Finishing School"
     mapLink: https://goo.gl/maps/1FVKpwgMi4x8rX3R9
-    buy_dev: https://buy.stripe.com/4gw0058nd4fabRu6oq
   - date: "November 13, 2022"
     time: "2:00 PM"
     location: "Schwartz Center for the Arts"
     address: "226 S State St, Dover, DE 19901"
     title: "Finishing School"
     mapLink: https://goo.gl/maps/ZiAUBxkeD6oaX9m5A
-    buy_dev: https://buy.stripe.com/5kA8wB32TfXSbRubIJ
