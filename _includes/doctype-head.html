@@ -24,6 +24,26 @@
 
     {% seo %}
 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "description": "{{ site.description }}",
+      "url": "{{ site.url }}",
+      "logo": "{{ site.url }}/{{ site.logo }}",
+      "sameAs": [
+        "{{ site.facebook.publisher }}",
+        "{{ site.youtube }}"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "email": "{{ site.contact.email }}"
+      }
+    }
+    </script>
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
