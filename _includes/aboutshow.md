@@ -1,7 +1,7 @@
-Loosely based on _The Children’s Hour_, a work of Lillian Hellman from 1934, Judge Young’s final script, _Finishing School_, will bring smiles—and tears of hilarity—to all in attendance. 
+Get ready to be dazzled and delighted by our upcoming extravaganza _Anna Karenina: From Train to Trial_! Critics are buzzing\* with excitement about this wild ride of a show. Written by our own Selena Molina in the spirit and style of our beloved departed Robert Young, this production is loosely based (okay, not at all based) on Tolstoy’s classic tale.
 
-For those of you who do not know of Lillian Hellman and her work (which includes virtually every single person reading this), here’s a little background. She wrote a number of Broadway dramas in the 30’s and through the 40’s. Although the plays were dismal, dreadful, drab, dire, depressing, and disconsolate, they were extremely popular on the Great White Way. So admired was she as a writer that she was lured to Hollywood, where she was in high demand as a screen writer!
+With a cast of 20 vibrant characters, a full band, and 21 toe-tapping tunes, dive headfirst into a whirlwind of love, betrayal, political intrigue, and... did we mention love? You’ll leave the theater wondering if this was a parody, or if Tolstoy plagiarized our legendary Profundo Bono production (albeit 120 years before our playwright was born).
 
-Directed by Gail Wagner, a cast of 22 plus some special cameos bring to life a school for girls in 1935 and their antics, with adventure, dancing, plot-twists, and more than 20 songs. As always, our live band, directed by Hon. James McGiffin, will entertain (and occasionally amuse) you!
+This year’s Wilmington performances (Friday 11/15/24 and Saturday 11/16/24) will again return to the vibrant Laird Performing Arts Center at Tatnall School, 1501 Barley Mill Rd, Wilmington. Our Sunday matinee in Dover (11/17/24) has found a new home at the Education & Humanities Theatre of Delaware State University, 1200 N Dupont Hwy, Dover.
 
-Let the music begin. We hope you have a great time!
+\*They would be raving if they could see it. But alas, even the critics have to wait until November for our exclusive three-show run. Mark your calendars and prepare for an unforgettable night of theater magic!
