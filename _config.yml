@@ -13,6 +13,9 @@ hero:
 # Contact form
 api_token: # Enter API token here
     
+# Stripe API keys
+stripe_pk: pk_live_51KWk4bIPKZMTWNGPsWu1FtmuyCoqhkhL298u2zmfEvQqesAQ3X1UsjnirEvIE1aZSxMxFgyXMXryQhlpnRKAHFfQ00lSPmq8LX
+
 # Social settings
 social:
   links:

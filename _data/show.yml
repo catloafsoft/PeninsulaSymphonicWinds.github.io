@@ -6,16 +6,25 @@ performances:
     location: "Tatnall School, Laird Performing Arts Center"
     address: "1501 Barley Mill Road, Wilmington, DE 19807"
     title: "Finishing School"
+    button: 1PwB5PIPKZMTWNGPie63p7Dx
+    buy: https://buy.stripe.com/aEUeUZ8nddPKg7K9AF
+    buy_dev: https://buy.stripe.com/aEUeUZ8nddPKg7K9AF
     mapLink: https://goo.gl/maps/1FVKpwgMi4x8rX3R9
   - date: "November 16, 2024"
     time: "7:30 PM"
     location: "Tatnall School, Laird Performing Arts Center"
     address: "1501 Barley Mill Road, Wilmington, DE 19807"
     title: "Finishing School"
+    button: 1Pw9GcIPKZMTWNGPKswboMpP
+    buy: https://buy.stripe.com/bIYaEJdHxh1WaNq006
+    buy_dev: https://buy.stripe.com/bIYaEJdHxh1WaNq006
     mapLink: https://goo.gl/maps/1FVKpwgMi4x8rX3R9
   - date: "November 17, 2024"
     time: "2:00 PM"
     location: "Education & Humanities Theatre of Delaware State University"
     address: "1200 N Dupont Hwy, Dover"
     title: "Finishing School"
+    button: 1PwB6JIPKZMTWNGPCeRAPfAp
+    buy: https://buy.stripe.com/dR65kp6f5cLG9JmdQU
+    buy_dev: https://buy.stripe.com/dR65kp6f5cLG9JmdQU
     mapLink: https://maps.app.goo.gl/gRczK4aBCTcVLnqJ8

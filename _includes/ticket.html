@@ -1,0 +1,11 @@
+<!-- Start of Selection -->
+<div class="text-center col-sm-4">
+    <h3>{{ include.date }}</h3>
+    <stripe-buy-button
+        buy-button-id="buy_btn_{{ include.id }}"
+        publishable-key="{{ site.stripe_pk }}"
+    >
+    </stripe-buy-button>
+    <h2>${{ include.price }}</h2>
+</div>
+<!-- End of Selection -->
