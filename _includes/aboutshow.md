@@ -1,4 +1,4 @@
-## Anna Karenina: From Trains to Trial
+### Anna Karenina: From Trains to Trial
 
 Get ready to be dazzled and delighted by our upcoming extravaganza _Anna Karenina: From Train to Trial_! Critics are buzzing\* with excitement about this wild ride of a show. Written by our own Selena Molina in the spirit and style of our beloved departed Robert Young, this production is loosely based (okay, not at all based) on Tolstoy’s classic tale.
 
@@ -8,7 +8,7 @@ This year’s Wilmington performances (Friday 11/15/24 and Saturday 11/16/24) wi
 
 \*They would be raving if they could see it. But alas, even the critics have to wait until November for our exclusive three-show run. Mark your calendars and prepare for an unforgettable night of theater magic!
 
-## From the Director’s Chair
+### From the Director’s Chair
 
 Societal hypocrisy, doomed adulterous affairs, endless train stations, intrusive in-laws, pretentious authors, backstabbing friends, greedy lawyers, 21 song parodies, and a grand finale courtroom scene... it’s all in a day’s work for the cast of _Anna Karenina_.
 
