@@ -1,107 +1,113 @@
 ---
 layout: default
 ---
-{% assign shows = site.data.show.performances | limit: 3 %}
-{% if jekyll.environment == "production" %}
-	{% assign display = site.data.show.show %}
-{% else %}
-	{% assign display = site.data.show.show_dev %}
-{% endif %}
-{% if display %}
+
+{% assign shows = site.data.show.performances | limit: 3 %} {% if
+jekyll.environment == "production" %} {% assign display = site.data.show.show %}
+{% else %} {% assign display = site.data.show.show_dev %} {% endif %} {% if
+display %}
 <div class="three-shade-col">
-	{% for show in shows %}
-		<div class="col-sm-4">
-		{% if show.hide %}
-			<h3>TBA!</h3>
-			{% else %}
-			<h3>&quot;{{ show.title }}&quot;</h3>
-			<p>
-				{{ show.date }}
-				{{ show.time }}
-			</p>
-			<p>
-				<a href="{{ show.mapLink }}" target="_blank"><svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>{{ show.location }}</a>
-			</p>
-			{% if jekyll.environment == "production" %}
-				{% if show.buy %}
-					<p>
-						<a class="btn btn-primary" href="{{ show.buy }}" role="button" target="_blank">Tickets</a>
-					</p>
-				{% endif %}
-			{% else %}
-				{% if show.buy_dev %}
-					<p>
-						<a class="btn btn-primary" href="{{ show.buy_dev }}" role="button" target="_blank">Tickets</a>
-					</p>
-				{% endif %}
-			{% endif %}
-		{% endif %}
-		</div>
-	{% endfor %}
+  {% for show in shows %}
+  <div class="col-sm-4">
+    {% if show.hide %}
+    <h3>TBA!</h3>
+    {% else %}
+    <h3>&quot;{{ show.title }}&quot;</h3>
+    <p>{{ show.date }} {{ show.time }}</p>
+    <p>
+      <a href="{{ show.mapLink }}" target="_blank"
+        ><svg class="icon icon-map-marker">
+          <use xlink:href="#icon-map-marker"></use></svg
+        >{{ show.location }}</a
+      >
+    </p>
+    {% if jekyll.environment == "production" %} {% if show.buy %}
+    <p>
+      <a
+        class="btn btn-primary"
+        href="{{ show.buy }}"
+        role="button"
+        target="_blank"
+        >Tickets</a
+      >
+    </p>
+    {% endif %} {% else %} {% if show.buy_dev %}
+    <p>
+      <a
+        class="btn btn-primary"
+        href="{{ show.buy_dev }}"
+        role="button"
+        target="_blank"
+        >Tickets</a
+      >
+    </p>
+    {% endif %} {% endif %} {% endif %}
+  </div>
+  {% endfor %}
 </div>
 {% endif %}
 
 <!-- Start Home -->
 <div id="home" class="home">
-	<div class="container-fluid">
-		{% capture home %}{% include home.md %}{% endcapture %}
-		{{ home | markdownify }}
-	</div>
+  <div class="container-fluid">
+    {% capture home %}{% include home.md %}{% endcapture %} {{ home |
+    markdownify }}
+  </div>
 </div>
 <!-- End About -->
 <!-- Start About -->
 <div id="about" class="about">
-	<div class="container-fluid">
-		<h2 class="section-title">About Us</h2>
-		{% capture about %}{% include about.md %}{% endcapture %}
-		{{ about | markdownify }}
-	</div>
-</div>
-<!-- End About -->
-<!-- Start Auditions -->
-<div id="auditions" class="auditions">
-	<div class="container-fluid">
-		<h2 class="section-title">Auditions</h2>
-		{% capture auditions %}{% include auditions.md %}{% endcapture %}
-		{{ auditions | markdownify }}
-	</div>
+  <div class="container-fluid">
+    <h2 class="section-title">About Us</h2>
+    {% capture about %}{% include about.md %}{% endcapture %} {{ about |
+    markdownify }}
+  </div>
 </div>
 <!-- End About -->
 {% comment %}
+<!-- Start Auditions -->
+<div id="auditions" class="auditions">
+  <div class="container-fluid">
+    <h2 class="section-title">Auditions</h2>
+    {% capture auditions %}{% include auditions.md %}{% endcapture %} {{
+    auditions | markdownify }}
+  </div>
+</div>
+<!-- End Auditions -->
+{% endcomment %}
 <!-- Start About the Show -->
 <div id="aboutshow" class="aboutshow">
-	<div class="container-fluid">
-		<h2 class="section-title">About the Show</h2>
-		{% capture aboutshow %}{% include aboutshow.md %}{% endcapture %}
-		{{ aboutshow | markdownify }}
-	</div>
+  <div class="container-fluid">
+    <h2 class="section-title">About the Show</h2>
+    {% capture aboutshow %}{% include aboutshow.md %}{% endcapture %} {{
+    aboutshow | markdownify }}
+  </div>
 </div>
 <!-- End About The Show -->
-{% endcomment %}
 <!-- Start Tickets -->
 <div id="tickets" class="tickets">
-	<div class="container-fluid">
-		<h2 class="section-title">Tickets</h2>
-		{% capture tickets %}{% include tickets.md %}{% endcapture %}
-		{{ tickets | markdownify }}
-	</div>
+  <div class="container-fluid">
+    <h2 class="section-title">Tickets</h2>
+    {% capture tickets %}{% include tickets.md %}{% endcapture %} {{ tickets |
+    markdownify }}
+  </div>
 </div>
 <!-- End Tickets -->
 <!-- Start Ads -->
 <div id="ads" class="ads">
-	<div class="container-fluid">
-		<h2 class="section-title">Ads and Sponsorships</h2> 
-		{% capture ads %}{% include ads.md %}{% endcapture %}
-		{{ ads | markdownify }}
-	</div>
+  <div class="container-fluid">
+    <h2 class="section-title">Ads and Sponsorships</h2>
+    {% capture ads %}{% include ads.md %}{% endcapture %} {{ ads | markdownify
+    }}
+  </div>
 </div>
 <!-- End Ads -->
 <!-- Start legal -->
 <div id="legal" class="legal">
-	<div class="container-fluid">
-		<h2 class="section-title">Legal (disclaimers, not actors)</h2>
-		{% capture legal %}{% include legal.md %}{% endcapture %}
-		{{ legal | markdownify }}
-	</div>
+  <div class="container-fluid">
+    <h2 class="section-title">Legal (disclaimers, not actors)</h2>
+    {% capture legal %}{% include legal.md %}{% endcapture %} {{ legal |
+    markdownify }}
+  </div>
 </div>
 <!-- End tickets -->

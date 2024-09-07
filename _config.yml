@@ -3,7 +3,8 @@ title: Profundo Bono
 description: "A non-profit theater company of Delaware lawyers and legal professionals"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://profundobono.com" # the name of your domain
-logo: img/logo.jpg
+logo: /img/logo.jpg
+imgprefix: ""  # Used for Cloudflare image resizing, leave blank in dev
 
 # Hero
 hero: 
@@ -13,6 +14,9 @@ hero:
 # Contact form
 api_token: # Enter API token here
     
+# Stripe API keys
+stripe_pk: pk_live_51KWk4bIPKZMTWNGPsWu1FtmuyCoqhkhL298u2zmfEvQqesAQ3X1UsjnirEvIE1aZSxMxFgyXMXryQhlpnRKAHFfQ00lSPmq8LX
+
 # Social settings
 social:
   links:
