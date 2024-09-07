@@ -12,17 +12,13 @@
   a {
     text-decoration: underline;
   }
+  h2 {
+    padding-bottom: 2rem;
+  }
   hr {
     border-color: darken($colorBg, 30%);
   }
   .col-sm-4 {
     overflow: hidden;
-  }
-}
-@media screen and (max-width: 768px) {
-  .tickets {
-    h2 {
-      padding-bottom: 2rem;
-    }
   }
 }

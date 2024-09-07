@@ -4,7 +4,8 @@ Group discounts are available by contacting [profundobono@adamhillerlaw.com](mai
 
 <hr />
 <div class="row">
-{% include ticket.html id="1PwB5PIPKZMTWNGPie63p7Dx" date="Nov 15, 2024" price=25 %}
-{% include ticket.html id="1Pw9GcIPKZMTWNGPKswboMpP" date="Nov 16, 2024" price=25 %}
-{% include ticket.html id="1PwB6JIPKZMTWNGPCeRAPfAp" date="Nov 17, 2024" price=25 %}
+{% include ticket.html id="1PwB5PIPKZMTWNGPie63p7Dx" date="Friday, Nov 15, 2024" price=25 %}
+{% include ticket.html id="1Pw9GcIPKZMTWNGPKswboMpP" date="Saturday, Nov 16, 2024" price=25 %}
+{% include ticket.html id="1PwB6JIPKZMTWNGPCeRAPfAp" date="Sunday, Nov 17, 2024" price=25 %}
 </div>
+You will not receive separate tickets. Please bring your ticket receipt with you to the show, or an I.D. of the credit card holder.

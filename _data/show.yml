@@ -1,7 +1,7 @@
 show: true
 show_dev: true
 performances:
-  - date: "November 15, 2024"
+  - date: "Friday, November 15, 2024"
     time: "7:30 PM"
     location: "Tatnall School, Laird Performing Arts Center"
     address: "1501 Barley Mill Road, Wilmington, DE 19807"
@@ -10,7 +10,7 @@ performances:
     buy: https://buy.stripe.com/aEUeUZ8nddPKg7K9AF
     buy_dev: https://buy.stripe.com/aEUeUZ8nddPKg7K9AF
     mapLink: https://goo.gl/maps/1FVKpwgMi4x8rX3R9
-  - date: "November 16, 2024"
+  - date: "Saturday, November 16, 2024"
     time: "7:30 PM"
     location: "Tatnall School, Laird Performing Arts Center"
     address: "1501 Barley Mill Road, Wilmington, DE 19807"
@@ -19,7 +19,7 @@ performances:
     buy: https://buy.stripe.com/bIYaEJdHxh1WaNq006
     buy_dev: https://buy.stripe.com/bIYaEJdHxh1WaNq006
     mapLink: https://goo.gl/maps/1FVKpwgMi4x8rX3R9
-  - date: "November 17, 2024"
+  - date: "Sunday, November 17, 2024"
     time: "2:00 PM"
     location: "Education & Humanities Theatre of Delaware State University"
     address: "1200 N Dupont Hwy, Dover"
