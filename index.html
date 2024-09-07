@@ -23,23 +23,11 @@ display %}
     </p>
     {% if jekyll.environment == "production" %} {% if show.buy %}
     <p>
-      <a
-        class="btn btn-primary"
-        href="{{ show.buy }}"
-        role="button"
-        target="_blank"
-        >Tickets</a
-      >
+      <a class="btn btn-primary" href="#tickets" role="button">Tickets</a>
     </p>
     {% endif %} {% else %} {% if show.buy_dev %}
     <p>
-      <a
-        class="btn btn-primary"
-        href="{{ show.buy_dev }}"
-        role="button"
-        target="_blank"
-        >Tickets</a
-      >
+      <a class="btn btn-primary" href="#tickets" role="button">Tickets</a>
     </p>
     {% endif %} {% endif %} {% endif %}
   </div>
