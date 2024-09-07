@@ -1,6 +1,6 @@
-### Anna Karenina: From Trains to Trial
+### Anna Karenina: From Train to Trial
 
-Get ready to be dazzled and delighted by our upcoming extravaganza _Anna Karenina: From Train to Trial_! Critics are buzzing\* with excitement about this wild ride of a show. Written by our own Selena Molina in the spirit and style of our beloved departed Robert Young, this production is loosely based (okay, not at all based) on Tolstoy’s classic tale.
+Get ready to be dazzled and delighted by our upcoming extravaganza _Anna Karenina: From Train to Trial_! Critics are raving\* with excitement about this wild ride of a show. Written by our own Selena Molina in the spirit and style of our beloved departed Robert Young, this production is loosely based (okay, not at all based) on Tolstoy’s classic tale.
 
 With a cast of 20 vibrant characters, a full band, and 21 toe-tapping tunes, dive headfirst into a whirlwind of love, betrayal, political intrigue, and... did we mention love? You’ll leave the theater wondering if this was a parody, or if Tolstoy plagiarized our legendary Profundo Bono production (albeit 120 years before our playwright was born).
 
