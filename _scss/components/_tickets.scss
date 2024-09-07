@@ -1,14 +1,28 @@
 /* TICKETS
 -------------------------------------------------*/
 .tickets {
-    margin-bottom: $space;
-    @extend %space;
-    background: $colorBg;
-    h4 {
-        padding: 10px 0 0;
-        margin: 0;
+  margin-bottom: $space;
+  @extend %space;
+  background: $colorBg;
+  h4,
+  h2 {
+    padding: 10px 0 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: underline;
+  }
+  hr {
+    border-color: darken($colorBg, 30%);
+  }
+  .col-sm-4 {
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tickets {
+    h2 {
+      padding-bottom: 2rem;
     }
-    a {
-        text-decoration: underline;
-    }
+  }
 }
