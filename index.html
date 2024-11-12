@@ -47,8 +47,7 @@ display %}
 <div id="about" class="about">
   <div class="container-fluid">
     <h2 class="section-title">About Us</h2>
-    {% capture about %}{% include about.md %}{% endcapture %} {{ about |
-    markdownify }}
+    {% capture about %}{% include about.md %}{% endcapture %} {{ about | markdownify }}
   </div>
 </div>
 <!-- End About -->
@@ -57,8 +56,7 @@ display %}
 <div id="auditions" class="auditions">
   <div class="container-fluid">
     <h2 class="section-title">Auditions</h2>
-    {% capture auditions %}{% include auditions.md %}{% endcapture %} {{
-    auditions | markdownify }}
+    {% capture auditions %}{% include auditions.md %}{% endcapture %} {{ auditions | markdownify }}
   </div>
 </div>
 <!-- End Auditions -->
@@ -67,8 +65,7 @@ display %}
 <div id="aboutshow" class="aboutshow">
   <div class="container-fluid">
     <h2 class="section-title">About the Show</h2>
-    {% capture aboutshow %}{% include aboutshow.md %}{% endcapture %} {{
-    aboutshow | markdownify }}
+    {% capture aboutshow %}{% include aboutshow.md %}{% endcapture %} {{ aboutshow | markdownify }}
   </div>
 </div>
 <!-- End About The Show -->
@@ -76,8 +73,11 @@ display %}
 <div id="tickets" class="tickets">
   <div class="container-fluid">
     <h2 class="section-title">Tickets</h2>
-    {% capture tickets %}{% include tickets.md %}{% endcapture %} {{ tickets |
-    markdownify }}
+    {% if site.no_tickets %}
+      {% capture tickets %}{% include tickets-gone.html %}{% endcapture %} {{ tickets | markdownify }}
+    {% else %}
+      {% capture tickets %}{% include tickets.md %}{% endcapture %} {{ tickets | markdownify }}
+    {% endif %}
   </div>
 </div>
 <!-- End Tickets -->
@@ -85,8 +85,7 @@ display %}
 <div id="ads" class="ads">
   <div class="container-fluid">
     <h2 class="section-title">Ads and Sponsorships</h2>
-    {% capture ads %}{% include ads.md %}{% endcapture %} {{ ads | markdownify
-    }}
+    {% capture ads %}{% include ads.md %}{% endcapture %} {{ ads | markdownify }}
   </div>
 </div>
 <!-- End Ads -->
@@ -94,8 +93,7 @@ display %}
 <div id="legal" class="legal">
   <div class="container-fluid">
     <h2 class="section-title">Legal (disclaimers, not actors)</h2>
-    {% capture legal %}{% include legal.md %}{% endcapture %} {{ legal |
-    markdownify }}
+    {% capture legal %}{% include legal.md %}{% endcapture %} {{ legal | markdownify }}
   </div>
 </div>
 <!-- End tickets -->
