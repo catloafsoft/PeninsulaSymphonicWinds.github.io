@@ -1,1 +1,1 @@
-Profundo Bono Delaware’s theater company, composed entirely of judges, lawyers, and other legal professionals, will be performing its 10th show this year: _Anna Karenina: From Train to Trial_ on November 15, 16, and 17, 2024, in Wilmington (15th & 16th) and Dover (17th). You’ll laugh, you’ll cry, you’ll cry some more, so be sure to buy your tickets right away!
+**We are Profundo Bono, Inc., the theater company composed entirely of Delaware judges, lawyers, and other legal professionals.**
