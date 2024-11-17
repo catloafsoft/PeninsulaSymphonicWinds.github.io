@@ -1,19 +1,21 @@
 /* ABOUT
 -------------------------------------------------*/
 .about {
-    margin-bottom: $space;
-    @extend %space;
+  margin-bottom: $space;
+  @extend %space;
+  color: $white;
+  background: lighten($colorPrimary, 2%);
+  h2,
+  h4,
+  h3 {
     color: $white;
-    background: lighten($colorPrimary, 2%);
-    h2, h4 {
-        color: $white;
-    }
-    h4 {
-        padding: 10px 0 0;
-        margin: 0;
-    }
-    a {
-        color: $white;
-        text-decoration: underline;
-    }
+  }
+  h4 {
+    padding: 10px 0 0;
+    margin: 0;
+  }
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
 }
